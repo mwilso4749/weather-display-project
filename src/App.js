@@ -6,10 +6,10 @@ function App() {
 
   const weather = useWeatherData();
 
+  
 
 
-
-
+  console.log(weather);
 
 
   return (
@@ -17,7 +17,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          meow
+          AAAA
         </p>
         <a
           className="App-link"
